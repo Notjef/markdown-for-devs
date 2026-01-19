@@ -1,13 +1,16 @@
-Markdown for Devs
+<p align="center"><img src="https://user-images.githubusercontent.com/55323701/82506032-25bbd600-9ad5-11ea-8b5e-e7c699d385af.png" alt="drawing" width="150"/></p>
+
+# Markdown for Devs
 The Definitive Guide to Markdown for Beginners and Developers
-📌 What is Markdown?
+
+## 📌 What is Markdown?
 
 Markdown is a lightweight markup language created to allow writing formatted text using only plain text.
 Unlike HTML, Markdown prioritizes simplicity, readability, and writing speed, without sacrificing structure.
 
 A Markdown file can be easily read even without rendering, while still being automatically converted into HTML, PDF, or other formats.
 
-📜 History and Origin of Markdown
+## 📜 History and Origin of Markdown
 
 Markdown was created in 2004 by John Gruber, with important contributions from Aaron Swartz.
 The main motivation was to solve a common problem at the time:
@@ -26,7 +29,7 @@ Convert cleanly to HTML
 
 With the growth of documentation culture and especially with GitHub’s adoption, Markdown became the de facto standard for READMEs and technical documentation.
 
-🚀 Why Did Markdown Become So Popular?
+## 🚀 Why Did Markdown Become So Popular?
 
 Markdown’s success is closely tied to:
 
@@ -42,27 +45,27 @@ Fast writing without visual editors
 
 Today, almost every developer uses Markdown—even if they don’t realize it.
 
-🌍 Where is Markdown Used Today?
+**🌍 Where is Markdown Used Today?**
 
-Markdown is widely used in:
+>_Markdown is widely used in:._
 
-📄 Repository README files
+**📄 Repository README files**
 
-👤 GitHub Profile READMEs
+**👤 GitHub Profile READMEs**
 
-📚 Technical documentation
+**📚 Technical documentation**
 
-📝 Wikis
+**📝 Wikis**
 
-🧠 Notion, Obsidian, Joplin
+**🧠 Notion, Obsidian, Joplin**
 
-💬 Discord, Slack, Reddit
+**💬 Discord, Slack, Reddit**
 
-⚙️ DevOps and CI/CD pipelines
+**⚙️ DevOps and CI/CD pipelines**
 
-✍️ Blogs and static site generators
+**✍️ Blogs and static site generators**
 
-📘 What is a README.md and Why Is It Important?
+## 📘 What is a README.md and Why Is It Important?
 
 The README.md file is the first contact someone has with your project.
 It works as the project’s business card.
