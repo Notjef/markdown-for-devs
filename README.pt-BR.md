@@ -1,103 +1,130 @@
-Markdown for Devs
-O Guia Definitivo de Markdown para Iniciantes e Desenvolvedores
-📌 O que é Markdown?
+<p align="center"><img src="https://user-images.githubusercontent.com/55323701/82506032-25bbd600-9ad5-11ea-8b5e-e7c699d385af.png" alt="drawing" width="150"/></p>
+
+# Markdown for Devs
+>_O Guia Definitivo de Markdown para Iniciantes e Desenvolvedores._
+
+## 📌 O que é Markdown?
 
 Markdown é uma linguagem de marcação leve criada para permitir a escrita de textos formatados utilizando apenas texto puro.
-Diferente do HTML, o Markdown prioriza simplicidade, legibilidade e velocidade de escrita, sem abrir mão da estrutura.
+Diferente do **HTML, o Markdown** prioriza simplicidade, legibilidade e velocidade de escrita, sem abrir mão da estrutura.
 
-Um arquivo Markdown pode ser lido facilmente mesmo sem renderização, e ainda assim ser convertido automaticamente para HTML, PDF ou outros formatos.
+Um arquivo **Markdown** pode ser lido facilmente mesmo sem renderização, e ainda assim ser convertido automaticamente para **HTML, PDF** ou outros formatos.
 
-📜 História e Origem do Markdown
+## 📜 História e Origem do Markdown
 
-O Markdown foi criado em 2004 por John Gruber, com contribuições importantes de Aaron Swartz.
-A motivação principal era resolver um problema muito comum na época:
+O **Markdown** foi criado em **2004** por **John Gruber**, com contribuições importantes de **Aaron Swartz.**
+Na época, a criação de conteúdo para a web exigia conhecimento técnico de **HTML,** o que tornava o processo lento e pouco acessível para escritores, desenvolvedores iniciantes e criadores de conteúdo.
 
-escrever conteúdo para a web exigia conhecimento técnico de HTML, o que tornava o processo lento e pouco acessível.
+**John Gruber,** escritor e desenvolvedor conhecido pelo site **Daring Fireball,** tinha como objetivo criar uma linguagem de marcação que fosse simples, legível e fácil de escrever, sem abrir mão da possibilidade de conversão para **HTML.** Sua experiência com usabilidade e escrita técnica influenciou diretamente os princípios do **Markdown.**
 
-O Markdown surgiu com a proposta de:
+**Aaron Swartz,** programador e ativista da internet, colaborou no desenvolvimento inicial da linguagem. Mesmo jovem, **Aaron** já havia participado de projetos fundamentais da web moderna, como o **_RSS 1.0_**, o Creative Commons e a fundação do **Reddit.** Sua visão defendia que a tecnologia deveria ser aberta, simples e acessível a todos — valores que ficaram profundamente marcados no **Markdown.** Em **2011,** anos após sua contribuição para o **Markdown** e outros projetos fundamentais da web, **Aaron Swartz** passou a enfrentar um processo **judicial** nos Estados Unidos após realizar downloads em massa de artigos acadêmicos, com o objetivo de ampliar o acesso ao conhecimento. A pressão legal e o rigor do processo levaram à sua **morte** em **2013,** aos **26 anos.** Seu caso se tornou um marco global no debate sobre acesso à informação, liberdade digital e os limites do sistema jurídico na era da internet.
 
-Ser fácil de escrever
+### escrever conteúdo para a web exigia conhecimento técnico de **HTML,** o que tornava o processo lento e pouco acessível.
 
-Ser fácil de ler
+O **Markdown** surgiu com a proposta de:
 
-Focar no conteúdo, não na marcação
+>_Ser fácil de escrever._
 
-Converter automaticamente para HTML
+>_Ser fácil de ler._
 
-Com o crescimento da cultura de documentação e, principalmente, com a adoção do Markdown pelo GitHub, ele se tornou o padrão para READMEs e documentações técnicas.
+>_Focar no conteúdo, não na marcação._
 
-🚀 Por que o Markdown se popularizou?
+>_Converter automaticamente para HTML._
 
-O crescimento do Markdown está diretamente ligado a:
+Com o crescimento da cultura de documentação e, principalmente, com a adoção do **Markdown** pelo **GitHub,** ele se tornou o padrão para **_READMEs_** e documentações técnicas.
 
-Adoção oficial pelo GitHub
+<table width="100%">
+  <tr>
+    <td align="left">
+      <img src="https://i.imgur.com/lmzVR7K.png" width="300" alt="John Gruber">
+    </td>
+    <td align="right">
+      <img src="https://i.imgur.com/3CNbn1Z.png" width="300" alt="Aaron Swartz">
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      <b>John Gruber</b>
+    </td>
+    <td align="right">
+      <b>Aaron Swartz 🕊️</b>
+    </td>
+  </tr>
+</table>
 
-Popularização do open source
 
-Cultura de documentação em projetos
+## 🚀 Por que o Markdown se popularizou?
 
-Curva de aprendizado extremamente baixa
+### O crescimento do Markdown está diretamente ligado a:
 
-Escrita rápida sem depender de editores visuais
+>_Adoção oficial pelo GitHub._
 
-Hoje, praticamente todo desenvolvedor usa Markdown, mesmo sem perceber.
+>_Popularização do open source._
 
-🌍 Onde o Markdown é usado atualmente?
+>_Cultura de documentação em projetos>._
 
-O Markdown é amplamente utilizado em:
+>_Curva de aprendizado extremamente baixa._
 
-📄 README.md de repositórios
+>_Escrita rápida sem depender de editores visuais._
 
-👤 GitHub Profile README
+#### Hoje, praticamente todo desenvolvedor usa **Markdown,** mesmo sem perceber.
 
-📚 Documentações técnicas
+### 🌍 Onde o Markdown é usado atualmente?
 
-📝 Wikis
+#### O Markdown é amplamente utilizado em:
 
-🧠 Notion, Obsidian, Joplin
+>_📄 README.md de repositórios._
 
-💬 Discord, Slack, Reddit
+>_👤 GitHub Profile README._
 
-⚙️ DevOps e CI/CD
+>_📚 Documentações técnicas._
 
-✍️ Blogs e geradores de sites estáticos
+>_📝 Wikis._
 
-📘 O que é um README.md e por que ele é importante?
+>_🧠 Notion, Obsidian, Joplin._
 
-O arquivo README.md é o primeiro contato que alguém tem com seu projeto.
+>_💬 Discord, Slack, Reddit._
+
+>_⚙️ DevOps e CI/CD>_
+
+>_✍️ Blogs e geradores de sites estáticos._
+
+>_📘 O que é um README.md e por que ele é importante?._
+
+O arquivo **_README.md_** é o primeiro contato que alguém tem com seu projeto.
 Ele funciona como o cartão de visita do repositório.
 
-Um bom README responde às seguintes perguntas:
+### Um bom README responde às seguintes perguntas:
 
-O que é este projeto?
+>_O que é este projeto?._
 
-Para que ele serve?
+>_Para que ele serve?._
 
-Como usar ou executar?
+>_Como usar ou executar?._
 
-Quais tecnologias foram usadas?
+>_Quais tecnologias foram usadas?._
 
-Como contribuir?
+>_Como contribuir?._
 
-Projetos sem README ou com README fraco tendem a:
+### Projetos sem README ou com README fraco tendem a:
 
-Ter menos estrelas
+>_Ter menos estrelas._
 
-Ter menos forks
+>_Ter menos forks._
 
-Ser menos utilizados
+>_Ser menos utilizados._
 
-🧱 Estrutura recomendada para um bom README
+### 🧱 Estrutura recomendada para um bom README
 
-Os tópicos abaixo são opcionais, mas altamente recomendados:
+**Os tópicos abaixo são opcionais, mas altamente recomendados:**
 
-Introdução
+>_Introdução._
 
-Descrição clara e objetiva do projeto.
+>_Descrição clara e objetiva do projeto._
 
-Índice
+### Índice
 
-Facilita a navegação em READMEs longos.
+Facilita a navegação em **_READMEs longos._**
 
 Funcionalidades
 
