@@ -126,117 +126,123 @@ Ele funciona como o cartão de visita do repositório.
 
 Facilita a navegação em **_READMEs longos._**
 
-Funcionalidades
+>_Funcionalidades._
 
-Lista do que o projeto faz.
+>_Lista do que o projeto faz._
 
-Tecnologias utilizadas
+>_Tecnologias utilizadas._
 
-Linguagens, frameworks e ferramentas.
+>_Linguagens, frameworks e ferramentas._
 
-Como executar
+>_Como executar._
 
-Passo a passo para rodar o projeto.
+>_Passo a passo para rodar o projeto._
 
-Contribuindo
+>_Contribuindo._
 
-Regras para forks e pull requests.
+>_Regras para forks e pull requests._
 
-Licença
+>_Licença._
 
-Define como o projeto pode ser utilizado.
+### Define como o projeto pode ser utilizado.
 
-✍️ Sintaxe Completa do Markdown
-🔹 Títulos (Headings)
+# ✍️ Sintaxe Completa do Markdown #
+
+###### 🔹 Títulos (Headings) ######
+
+```
 # Título 1
 ## Título 2
 ### Título 3
 #### Título 4
 ##### Título 5
 ###### Título 6
+```
 
+>_Utilize os títulos de forma hierárquica e sem pular níveis._
 
-Utilize os títulos de forma hierárquica e sem pular níveis.
+### 🔹 Ênfase de texto ###
 
-🔹 Ênfase de texto
-
-Negrito
-
+**Negrito**
+```
 **negrito**
 __negrito__
+```
 
-
-Itálico
-
+*Itálico*
+```
 *itálico*
 _itálico_
+```
 
-
-Negrito e Itálico
-
+***Negrito e Itálico***
+```
 ***ênfase***
+```
 
-
-Texto riscado
-
+~~Texto riscado~~
+```
 ~~riscado~~
-
+```
 🔹 Parágrafos e quebras de linha
 
 Uma linha em branco cria um novo parágrafo.
 
 Para quebra de linha forçada:
 
-Linha 1  
-Linha 2
+>_Linha 1._  
+>_Linha 2._
 
 🔹 Linhas horizontais
 ---
+>_usar (---)._ 
 ***
+>_usar (***)._ 
 ___
+>_usar (___)._
+
 
 🔹 Citações (Blockquotes)
-> Esta é uma citação
-
+ Esta é uma citação
 
 Aninhadas:
-
+```
 > Citação principal
 >> Citação secundária
-
+```
 🔹 Listas
 
 Listas ordenadas
-
+```
 1. Item um
 2. Item dois
 3. Item três
-
+```
 
 Listas não ordenadas
-
+```
 - Item
 * Item
 + Item
-
+```
 
 Listas aninhadas
-
+```
 - Item principal
   - Subitem
-
+```
 
 Lista de tarefas
-
+```
 - [ ] Tarefa pendente
 - [x] Tarefa concluída
-
+```
 🔹 Código
 
 Código inline
-
+```
 `console.log("Hello")`
-
+```
 
 Bloco de código
 
@@ -246,6 +252,7 @@ Bloco com linguagem
 
 ```python
 print("Hello, Markdown!")
+```
 
 
 ---
@@ -254,92 +261,95 @@ print("Hello, Markdown!")
 
 ```md
 [GitHub](https://github.com)
-
+```
 
 Link direto:
-
+```
 <https://google.com>
-
+```
 
 Link para arquivos locais:
-
+```
 [Ver guia](docs/guia.md)
-
+```
 🔹 Imagens
+```
 ![Descrição](URL)
-
+```
 
 Imagem com link:
-
+```
 [![Texto](URL_da_imagem)](URL_do_link)
-
+```
 🔹 Tabelas
+```
 Coluna A | Coluna B
 -------- | --------
 Item 1   | Item 2
-
+```
 
 Alinhamento:
-
+```
 :--- | :---: | ---:
-
+```
 🔹 HTML embutido no Markdown
+```
 <details>
   <summary>Ver mais</summary>
   Conteúdo oculto
 </details>
-
+```
 
 Útil para READMEs mais interativos.
-
+```
 🔹 Emojis
 :rocket: :fire: :computer:
-
+```
 
 🚀 🔥 💻
 
 Use com moderação.
 
-⚙️ GitHub Flavored Markdown (GFM)
+### ⚙️ GitHub Flavored Markdown (GFM) 
 
 O GitHub utiliza uma variação chamada GFM, que adiciona:
 
-Tabelas
+>_Tabelas._
 
-Task lists
+>_Task lists._
 
-Syntax highlighting
+>_Syntax highlighting._
 
-Strikethrough
+>_Strikethrough._
 
 Nem todo Markdown funciona igual fora do GitHub.
 
-⚠️ Limitações do Markdown
+### ⚠️ Limitações do Markdown
 
 Não indicado para layouts complexos
 
-Estilo visual limitado
+>_Estilo visual limitado._
 
-Diferenças entre interpretadores
+>_Diferenças entre interpretadores._
 
-Para casos avançados, use Markdown + HTML.
+Para casos avançados, use **Markdown + HTML.**
 
-✅ Boas práticas ao usar Markdown
+### ✅ Boas práticas ao usar Markdown
 
-Use títulos hierárquicos
+>_Use títulos hierárquicos._
 
-Evite READMEs gigantes sem índice
+>_Evite READMEs gigantes sem índice._
 
-Use blocos de código corretamente
+>_Use blocos de código corretamente._
 
-Seja objetivo e claro
+>_Seja objetivo e claro._
 
-Priorize legibilidade
+>_Priorize legibilidade._
 
-📄 Licença
+### 📄 Licença
 
-Este projeto utiliza a licença MIT, permitindo uso, modificação e distribuição.
+>_Este projeto utiliza a licença MIT, permitindo uso, modificação e distribuição._
 
-👨‍💻 Créditos
+### 👨‍💻 Créditos
 
 Conteúdo educacional reescrito, atualizado e organizado com foco em iniciantes e desenvolvedores.
