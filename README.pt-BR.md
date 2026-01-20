@@ -212,34 +212,34 @@ Aninhadas:
 ```
 🔹 Listas
 
-Listas ordenadas
+1.Listas ordenadas
 ```
 1. Item um
 2. Item dois
 3. Item três
 ```
 
-Listas não ordenadas
++ Listas não ordenadas
 ```
 - Item
 * Item
 + Item
 ```
 
-Listas aninhadas
+- Listas aninhadas
 ```
 - Item principal
   - Subitem
 ```
 
-Lista de tarefas
+- [x] Lista de tarefas
 ```
 - [ ] Tarefa pendente
 - [x] Tarefa concluída
 ```
 🔹 Código
 
-Código inline
+`Código.inline("Hello")`
 ```
 `console.log("Hello")`
 ```
@@ -307,7 +307,7 @@ Alinhamento:
 ```
 
 🚀 🔥 💻
-
+Para conferir uma lista com os emojis e suas sintaxes, clique aqui: [EMOJIS](https://gist.github.com/rxaviers/7360908)
 Use com moderação.
 
 ### ⚙️ GitHub Flavored Markdown (GFM) 
@@ -346,10 +346,10 @@ Para casos avançados, use **Markdown + HTML.**
 
 >_Priorize legibilidade._
 
-### 📄 Licença
+## 📄 Licença
 
->_Este projeto utiliza a licença MIT, permitindo uso, modificação e distribuição._
+Este projeto está licenciado sob a licença **Creative Commons Attribution 4.0 (CC BY 4.0)**.
 
-### 👨‍💻 Créditos
+Você pode usar, adaptar e redistribuir este conteúdo, inclusive para fins comerciais, **desde que atribua o crédito apropriado ao autor original**.
 
-Conteúdo educacional reescrito, atualizado e organizado com foco em iniciantes e desenvolvedores.
+Copyright (c) 2026 Jeferson Rodrigo
