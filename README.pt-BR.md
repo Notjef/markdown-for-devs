@@ -205,7 +205,7 @@ ___
 🔹 Citações (Blockquotes)
  Esta é uma citação
 
-Aninhadas:
+>> Aninhadas:
 ```
 > Citação principal
 >> Citação secundária
@@ -259,28 +259,28 @@ print("Hello, Markdown!")
 
 ### 🔹 Links
 
-```md
+md
 [GitHub](https://github.com)
-```
+
 
 Link direto:
-```
+
 <https://google.com>
-```
+
 
 Link para arquivos locais:
-```
+
 [Ver guia](docs/guia.md)
-```
+
 🔹 Imagens
-```
+
 ![Descrição](URL)
-```
+
 
 Imagem com link:
-```
+
 [![Texto](URL_da_imagem)](URL_do_link)
-```
+
 🔹 Tabelas
 ```
 Coluna A | Coluna B
@@ -288,7 +288,8 @@ Coluna A | Coluna B
 Item 1   | Item 2
 ```
 
-Alinhamento:
+:--- | :---: | ---:Alinhamento::--- | :---: | ---:
+
 ```
 :--- | :---: | ---:
 ```
