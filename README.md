@@ -1,129 +1,158 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/55323701/82506032-25bbd600-9ad5-11ea-8b5e-e7c699d385af.png" alt="drawing" width="150"/></p>
 
 # Markdown for Devs
-The Definitive Guide to Markdown for Beginners and Developers
+>_The Definitive Guide to Markdown for Beginners and Developers._
 
 ## 📌 What is Markdown?
 
-Markdown is a lightweight markup language created to allow writing formatted text using only plain text.
-Unlike HTML, Markdown prioritizes simplicity, readability, and writing speed, without sacrificing structure.
+**Markdown** is a lightweight markup language created to allow writing formatted text using only plain text.
+Unlike **HTML, Markdown** prioritizes simplicity, readability, and writing speed, without sacrificing structure.
 
-A Markdown file can be easily read even without rendering, while still being automatically converted into HTML, PDF, or other formats.
+A **Markdown** file can be easily read even without rendering, and can still be automatically converted to **HTML, PDF,** or other formats.
 
 ## 📜 History and Origin of Markdown
 
-Markdown was created in 2004 by John Gruber, with important contributions from Aaron Swartz.
-The main motivation was to solve a common problem at the time:
+**Markdown** was created in **2004** by **John Gruber,** with important contributions from **Aaron Swartz.**
+At the time, creating content for the web required technical knowledge of **HTML,** which made the process slow and not very accessible for writers, beginner developers, and content creators.
 
-writing content for the web required technical knowledge of HTML, making the process slow and inaccessible.
+**John Gruber,** a writer and developer best known for the Daring Fireball website, aimed to create a markup language that was simple, readable, and easy to write, while still being convertible to HTML. His experience with usability and technical writing directly influenced the core principles of Markdown.
 
-Markdown was designed to:
+Aaron Swartz, a programmer and internet activist, collaborated on the early development of the language. Even at a young age, Aaron had already contributed to fundamental projects of the modern web, such as **_RSS 1.0,_** Creative Commons, and the founding of Reddit. His vision defended that technology should be open, simple, and accessible to everyone — values that became deeply embedded in **Markdown.**
+In **2011,** years after his contribution to **Markdown** and other key web projects, Aaron Swartz faced a **judicial** process in the United States after carrying out mass downloads of academic articles with the goal of expanding access to knowledge. The legal pressure and severity of the case led to his **death** in **2013,** at the age of **26.** His case became a global landmark in the debate over access to information, digital freedom, and the limits of the legal system in the internet era.
 
-Be easy to write
+### Writing content for the web required technical knowledge of HTML, making the process slow and not very accessible.
 
-Be easy to read
+**Markdown** emerged with the proposal to:
 
-Focus on content, not markup
+>_Be easy to write._
 
-Convert cleanly to HTML
+>_Be easy to read._
 
-With the growth of documentation culture and especially with GitHub’s adoption, Markdown became the de facto standard for READMEs and technical documentation.
+>_Focus on content, not markup._
 
-## 🚀 Why Did Markdown Become So Popular?
+>_Automatically convert to HTML._
 
-Markdown’s success is closely tied to:
+With the growth of documentation culture and, especially, with the adoption of **Markdown by GitHub,** it became the standard for **_READMEs_** and technical documentation.
 
-Massive adoption by GitHub
+<table width="100%">
+  <tr>
+    <td align="left">
+      <img src="https://i.imgur.com/lmzVR7K.png" width="300" alt="John Gruber">
+    </td>
+    <td align="right">
+      <img src="https://i.imgur.com/3CNbn1Z.png" width="300" alt="Aaron Swartz">
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      <b>John Gruber</b>
+    </td>
+    <td align="right">
+      <b>Aaron Swartz 🕊️</b>
+    </td>
+  </tr>
+</table>
 
-Growth of open source culture
 
-Documentation-driven development
 
-Extremely low learning curve
+## 🚀 Why did Markdown become popular?
 
-Fast writing without visual editors
+### The growth of Markdown is directly linked to:
 
-Today, almost every developer uses Markdown—even if they don’t realize it.
+>_Official adoption by GitHub._
 
-**🌍 Where is Markdown Used Today?**
+>_The rise of open source._
 
->_Markdown is widely used in:._
+>_Documentation culture in projects._
 
-**📄 Repository README files**
+>_An extremely low learning curve._
 
-**👤 GitHub Profile READMEs**
+>_Fast writing without relying on visual editors._
 
-**📚 Technical documentation**
+### Today, almost every developer uses Markdown, even without realizing it.
 
-**📝 Wikis**
+### 🌍 Where is Markdown used today?
+Markdown is widely used in:
 
-**🧠 Notion, Obsidian, Joplin**
+>_📄 Repository README.md files._
 
-**💬 Discord, Slack, Reddit**
+>_👤 GitHub Profile READMEs._
 
-**⚙️ DevOps and CI/CD pipelines**
+>_📚 Technical documentation._
 
-**✍️ Blogs and static site generators**
+>_📝 Wikis._
 
-## 📘 What is a README.md and Why Is It Important?
+>_🧠 Notion, Obsidian, Joplin._
 
-The README.md file is the first contact someone has with your project.
-It works as the project’s business card.
+>_💬 Discord, Slack, Reddit._
 
-A good README answers:
+>_⚙️ DevOps and CI/CD._
 
-What is this project?
+>_✍️ Blogs and static site generators._
 
-What problem does it solve?
+>_📘 What is a README.md and why is it important?._
 
-How do I use or run it?
+The **_README.md_** file is the first contact someone has with your project.
+It works as the repository’s business card.
 
-Which technologies are used?
+### A good README answers the following questions:
 
-How can I contribute?
+>_What is this project?._
 
-Projects without a proper README tend to:
+>_What is it for?._
 
-Receive fewer stars
+>_How do you use or run it?._
 
-Have fewer forks
+>_Which technologies were used?._
 
-Be less adopted
+>_How can someone contribute?._
 
-🧱 Recommended README Structure
+### Projects without a README or with a weak README tend to:
 
-The following sections are optional, but highly recommended:
+>_Have fewer stars._
 
-Introduction
+>_Have fewer forks._
 
-Clear and objective project description.
+>_Be less used._
 
-Table of Contents
+### 🧱 Recommended structure for a good README
 
-Helps navigation in long READMEs.
+**The topics below are optional, but highly recommended:**
 
-Features
+>_Introduction._
 
-What the project does.
+>_Clear and objective project description._
 
-Technologies
+### Table of Contents
 
-Languages, frameworks, and tools used.
+**Makes navigation easier in long** **_READMEs._**
 
-How to Run
+>_Features._
 
-Step-by-step instructions to run the project.
+>_List of what the project does._
 
-Contributing
+>_Technologies used._
 
-Guidelines for forks and pull requests.
+>_Languages, frameworks, and tools._
 
-License
+>_How to run._
 
-Defines how the project can be used.
+>_Step-by-step instructions to run the project._
 
-✍️ Complete Markdown Syntax Guide
-🔹 Headings
+>_Contributing._
+
+>_Rules for forks and pull requests._
+
+>_License._
+
+### Defines how the project can be used.
+
+# ✍️ Complete Markdown Syntax
+
+###### 🔹 Headings
+
+```
+
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -131,104 +160,124 @@ Defines how the project can be used.
 ##### Heading 5
 ###### Heading 6
 
+```
 
-Use headings hierarchically and avoid skipping levels.
 
-🔹 Text Emphasis
+>_Use headings hierarchically and do not skip levels._
 
-Bold
+### 🔹 Text emphasis
+
+**Bold**
+
+```
 
 **bold**
 __bold__
 
+```
 
-Italic
+
+*Italic*
+
+```
 
 *italic*
 _italic_
 
+```
 
-Bold and Italic
+
+***Bold and Italic***
+
+```
 
 ***emphasis***
 
 
-Strikethrough
+```
 
+~~TStrikethrough~~T
+```
 ~~strikethrough~~
+```
 
-🔹 Paragraphs and Line Breaks
+🔹 Paragraphs and line breaks
 
 A blank line creates a new paragraph.
 
-Forced line break:
+For a forced line break:
 
-Line 1  
-Line 2
+>_Line 1._
+>_Line 2._
 
-🔹 Horizontal Rules
+🔹 Horizontal rules
+
 ---
+
+>_use (---)._
+
 ***
-___
+
+>_use (***)._
+
+__
+
+>_use (__)._
 
 🔹 Blockquotes
-> This is a quote
+This is a quote
 
-
-Nested quotes:
-
+>> Nested:
+```
 > Main quote
->> Nested quote
+>> Secondary quote
+```
 
 🔹 Lists
 
-Ordered lists
+1.Ordered lists
+```
+1. Item one
+2. Item two
+3. Item three
+```
 
-1. First item
-2. Second item
-3. Third item
-
-
-Unordered lists
-
++ Unordered lists
+```
 - Item
 * Item
 + Item
+```
 
-
-Nested lists
-
+- Nested lists
+```
 - Main item
-  - Sub item
+  - Subitem
+```
 
-
-Task lists
-
+- [x] Task lists
+```
 - [ ] Pending task
 - [x] Completed task
+```
 
 🔹 Code
 
-Inline code
-
+`Inline.code("Hello")`
+```
 `console.log("Hello")`
-
+```
 
 Code block
 
 Code here
 
-Code block with language
-
+Block with language
 ```python
 print("Hello, Markdown!")
-
-
----
-
-### 🔹 Links
-
-```md
+```
+###🔹 Links
+md
 [GitHub](https://github.com)
 
 
@@ -236,12 +285,13 @@ Direct link:
 
 <https://google.com>
 
+Local file links:
 
-Local file link:
+[View guide](docs/guia.md)
 
-[View guide](docs/guide.md)
 
 🔹 Images
+
 ![Description](URL)
 
 
@@ -249,76 +299,84 @@ Image with link:
 
 [![Text](Image_URL)](Link_URL)
 
+
 🔹 Tables
+```
 Column A | Column B
 -------- | --------
 Item 1   | Item 2
+```
 
+:--- | :---: | ---:Alignment::--- | :---: | ---:
 
-Alignment:
-
+```
 :--- | :---: | ---:
+```
 
 🔹 Embedded HTML in Markdown
+```
 <details>
   <summary>See more</summary>
   Hidden content
 </details>
+```
 
-
-Very useful for interactive READMEs.
-
+Useful for more interactive READMEs.
+```
 🔹 Emojis
-:rocket: :fire: :computer:
 
+:rocket: :fire: :computer:
+```
 
 🚀 🔥 💻
-
+To see a full list of emojis and their syntax, click here:[EMOJIS](https://gist.github.com/rxaviers/7360908)
 Use sparingly.
 
-⚙️ GitHub Flavored Markdown (GFM)
+### ⚙️ GitHub Flavored Markdown (GFM)
 
-GitHub uses a variant called GFM, which adds support for:
+GitHub uses a variation called GFM, which adds:
 
-Tables
+>_Tables._
 
-Task lists
+>_Task lists._
 
-Syntax highlighting
+>_Syntax highlighting._
 
-Strikethrough
+>_Strikethrough._
 
-Not all Markdown features behave the same outside GitHub.
+Not all Markdown works the same way outside GitHub.
 
-⚠️ Markdown Limitations
+### ⚠️ Markdown Limitations
 
 Not suitable for complex layouts
 
-Limited styling control
+>_Limited visual styling._
 
-Differences between parsers
+>_Differences between parsers._
 
-For advanced use cases, combine Markdown with HTML.
+For advanced cases, use Markdown + HTML.
 
-✅ Best Practices When Using Markdown
+### ✅ Best practices when using Markdown
 
-Use proper heading hierarchy
+>_Use hierarchical headings._
 
-Avoid long READMEs without a table of contents
+>_Avoid huge READMEs without a table of contents._
 
-Use code blocks correctly
+>_Use code blocks correctly._
 
-Be clear and objective
+>_Be clear and objective._
 
-Prioritize readability
+>_Prioritize readability._
 
-📄 License
+## 📄 License
 
-This project is licensed under the MIT License, allowing use, modification, and distribution.
+This project is licensed under **the Creative Commons Attribution 4.0 (CC BY 4.0) license.**
 
-👨‍💻 Credits
+You may use, adapt, and redistribute this content, including for commercial purposes, **as long as proper credit is given to the original author.**
 
-Educational content rewritten, updated, and organized for modern developers
+Copyright (c) 2026 Jeferson Rodrigo
+
+
 
 
 
